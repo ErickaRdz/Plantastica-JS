@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Plantastica</title>
+</head>
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Poppins">
+<link rel="stylesheet" type="text/css" href="estilos.css">
+<link rel="icon" type="image/png" href="recursos/cactus.png">
+<script type="text/javascript">
+    function ConfirmarDatos() {
+        var nombre, mail;
+        nombre = document.getElementById('nombre').value;
+        mail = document.getElementById('mail').value;
+
+        if (nombre == '' || mail == '') {
+            alert('Campos obligatorios');
+            return false;
+        }else{
+            document.getElementById('nombre').value;
+            document.getElementById('mail').value;
+            window.location="https://mail.google.com/";
+        }
+    }
+</script>
+<body background="recursos/4395458.jpg" style="background-size: cover; background-repeat: no-repeat;">
+    <nav>
+       <ul>
+           <img src="recursos/logo.png" width="200px" style="float: left;">
+           <li><a href="index.html">Inicio</a></li>
+           <li><a href="perfil.html">Mi Perfil</a></li>
+           <li><a href="contacto.html">Contacto</a></li>
+           <li><a href="#">Sobre Nosotros</a></li>
+           <li style="float: right"><a href="#IrVentanaFlotante">Suscríbete</a></li>
+       </ul>
+   </nav>
+   <div id="IrVentanaFlotante" class="modal">
+    <div class="ventana">
+        <a href="#" style='text-decoration:none;'>
+            x
+        </a>
+        <h2 align="center">Suscríbete para ser el primero en recibir noticias y ofertas exclusivas</h2><br>
+        <form>
+            <p>Nombre: <input class="cajatexto" type="text" name="nombre" size="30" id="nombre"></p>
+            <p>Correo Eléctronico: <input class="cajatexto" type="text" name="mail" size="30" id="mail"></p>
+            <p><input type="button" name="sucribirse" value="Suscríbirse" class="cajaboton" onclick="ConfirmarDatos()"></p>
+        </form>
+    </div>
+</div>
+<div>
+    <header>
+        <p>
+            Bienvenido a <strong>Plantastica!!</strong>, en este blog podrás conocer todo a cerca de plantas, donde encontrarás los <i>consejos necesarios para sus cuidados</i> y el mejor aprovechamiento que nos provee la tierra como lo son los sustratos, fertilizantes naturales, preparación de tierra, entre <u>muchos consejos más</u> que podrás aprender a lo largo de este blog!! <b>Sigamos aprendiendo juntos!</b>
+        </p>
+    </header>
+</div>
+<div class="container">
+    <main>
+       <section class="cajasection">
+           <div class="caja1">
+               <h1 class="blog">Echeveria Perle-Von</h1>
+               <p>
+                Es una suculenta hermosa con tonos morados y rosas.<br>
+                <b>Aprende a Cuidarla</b><br>
+                <a href="#"><img src="recursos/echeveria-perle.jpg" class="imgtransicion"></a>
+            </p>
+        </div>
+        <div class="caja2">
+           <h1 class="blog">Caléndula</h1>
+           <p>
+            La flor que se utiliza para hacer medicina. La caléndula es comúnmente usada para tratar las heridas, infecciones, etc.<br>
+            <a href="#"><img src="recursos/calendula.jpg" class="imgtransicion"></a>
+        </p>
+
+    </div>
+    <div class="caja3">
+       <h1 class="blog">Humus de lombriz</h1>
+       <p>
+        Es uno de los <b>abonos orgánicos</b> estrella en la actualidad. Aprende más sobre este abono.<br>
+        <a href="#"><img src="recursos/humus.jpg" class="imgtransicion"></a>
+    </p>
+</div>
+</section>
+<aside>
+   <div>
+       <h1 align="center" class="blog">Blog Plantastica:</h1>
+       <p>
+           <b>Ericka Rdz</b> dice:<br>
+           Muy buen blog, he aprendido muchas cosas interesantes<br>
+           <b>César Villarreal</b> dice:<br>
+           Aprendí tips muy buenos para mis suculentas<br>
+           <b>Sara Perales</b> dice:<br>
+           Amo las plantitas, 5 estrellas para este blog<br>
+           <b>Max Gelacio</b> dice:<br>
+           Me gusta toda la información ya que es verídica<br>
+       </p>
+       <h1 align="center" class="blog">Recomendaciones del mes:</h1>
+       <div class="blog" align="center">
+           <h1>Lavanda: Repelente Natural de mosquitos</h1>
+           <p>
+               No requiere muchos cuidados y, además, sus hojas actúan como repelente contra los mosquitos.<br>
+           </p>
+           <img src="recursos/lavanda.jpg" width="200px">
+       </div>
+       <div class="blog" align="center">
+           <h1>Pocos Cuidados: Sansevieira</h1>
+           <p>
+            Sus riegos deben ser moderados. Además, tampoco necesita mucha luz para crecer, por lo que se mantendrá ella sola sin apenas ningún cuidado.<br>
+        </p>
+        <img src="recursos/sansevieira.jpg" width="200px">
+    </div>
+</div>
+</aside>
+<section class="cajasection">
+   <div class="caja1">
+       <h1 class="blog">Cómo hacer esquejes en agua</h1>
+       <p>
+        El esquejado en agua es una de las técnicas que más se utilizan<br>
+        <a href="#"><img src="recursos/esqueje.jpg" class="imgtransicion"></a>
+    </p>
+</div>
+<div class="caja2">
+   <h1 class="blog">Stapelia: cuidados</h1>
+   <p>
+    Una planta muy particular que cualquier fan Stranger Things reconocerá.<br>
+    <b>Aprende a Cuidarla</b><br>
+    <a href="#"><img src="recursos/stapelia.jpg" class="imgtransicion"></a>
+</p>
+</div>
+<div class="caja3">
+   <h1 class="blog">Cómo plantar calabacines</h1>
+   <p>
+    Aprende a cultivar estos frutos excepcionalmente sanos, sabrosos.<br>
+</p>
+<a href="#"><img src="recursos/calabacines.jpg" class="imgtransicion"></a>
+</div>
+</section>
+</main>
+</div>
+</body>
